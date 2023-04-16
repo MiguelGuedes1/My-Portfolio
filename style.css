@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.main{
+    height: 100vh;
+    background: url(/imagens/fundoo.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.botaohamburguer img {
+    width: 45px;
+    height: 45px;
+    margin-right: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.barramenu{
+    background: #1a012a;
+    height: 100vh;
+    width: 0px;
+    transition: 0.3s all ;
+}
+
+.barramenu ul{
+    margin-top: 20px;
+}
+
+.barramenu li {
+    list-style: none;
+    padding: 20px;
+    text-align:center ;
+}
+
+.amenu {
+    text-decoration: none;
+    font-size: 18px;
+    width: 100%;
+}
+
+.amenu:hover{
+    border: solid 1px purple;
+    padding: 8px;
+    border-radius: 15px;
+    background-color: purple;
+}
+.iconsredessociais{
+    margin-top: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 15px;
+    overflow: hidden;
+}
+
+.icon{
+    color: rgb(56, 45, 56);
+
+}
+
+.icon:hover{
+    transition: 0,2s;
+    transform: 0.5s;
+    width: 23px;
+}
+
+
+
+
+
+
+
+
+
