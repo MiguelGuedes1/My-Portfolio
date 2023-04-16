@@ -12,6 +12,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar{
@@ -26,13 +27,13 @@
 .botaohamburguer img {
     width: 45px;
     height: 45px;
-    margin-right: 15px;
-    margin-top: 15px;
+    margin-right: 20px;
+    margin-top: 20px;
     cursor: pointer;
 }
 
 .barramenu{
-    background: #1a012a;
+    background:transparent;
     height: 100vh;
     width: 0px;
     transition: 0.3s all ;
@@ -49,8 +50,9 @@
 }
 
 .amenu {
+    font-family: "Poppins";
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
     width: 100%;
 }
 
@@ -80,6 +82,63 @@
     width: 23px;
 }
 
+.titulos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+    flex-wrap: wrap;
+
+}
+
+.titulos h1{
+    font-family: "Poppins";
+    color: rgb(226, 19, 226);
+    font-size: 75px;
+    margin-top: 15%;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.titulos h2{
+    font-family: "Poppins";
+    color: crimson;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-top: 40px;
+
+
+}
+
+.titulos h5{
+    font-family: "Poppins";
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-top: 40px;
+
+}
+
+@media screen and (max-width:414px) {
+    .titulos h1{
+        font-size: 40px;
+        margin-top: 75%;
+        margin-right: 15%;
+    }
+
+    .titulos h2{
+        font-size: 25px;
+        margin-right: 15%;
+
+    }
+
+
+
+
+
+
+
+}
 
 
 
