@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+  
 }
 
 .main{
@@ -11,12 +11,12 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: black;
+    color:white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar{
-    position: absolute;
+    position: fixed;
     top: 0;
     right: 0;
     display: flex;
@@ -132,13 +132,46 @@
 
     }
 
-
-
-
-
-
-
 }
+
+/* Sobre mim*/
+
+#aboutme{
+    display: flex;
+    width: 85%;
+    justify-content: space-around;
+    padding: 150px 0px ;
+    gap: 20px;
+
+ 
+}
+
+#aboutme img{
+    width: 400px;
+    height: auto;
+}
+
+.sobremim h1{
+    text-align: center;
+    font-size: 55px ;
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+.sobremim h5{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: "Poppins";
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    
+}
+
+
+
+
 
 
 
