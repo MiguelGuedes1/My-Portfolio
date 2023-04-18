@@ -4,6 +4,9 @@
     box-sizing: border-box;
   
 }
+body{
+    background-color: rgb(18, 18, 23)
+}
 
 .main{
     height: 100vh;
@@ -139,23 +142,30 @@
 #aboutme{
     display: flex;
     width: 85%;
-    justify-content: space-around;
-    padding: 150px 0px ;
+    justify-content: center;
+    padding: 20px 0px ;
     gap: 20px;
+    background-color: rgb(18, 18, 23)
+ 
 
  
 }
 
 #aboutme img{
-    width: 400px;
-    height: auto;
+    width: 350px;
+    margin-bottom: 200px;
+}
+
+.sobremim{
+    padding-top: 12%;
 }
 
 .sobremim h1{
     text-align: center;
-    font-size: 55px ;
+    font-size: 65px ;
     font-family: "Poppins";
     font-weight: bold;
+    color: rgb(226, 19, 226);
 }
 
 .sobremim h5{
@@ -166,8 +176,187 @@
     margin-top: 30px;
     margin-bottom: 30px;
     font-weight: bold;
+    color: white;
+}
+
+.sobremim p{
+    font-family: "Poppins";
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+/*My Skills*/
+
+#myskills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px ;
+
+}
+
+.tituloskills h1{
+    font-size: 68px ;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: rgb(226, 19, 226);
+}
+
+.skills{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills h2{
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom:5px ;
+    font-size: 18px;
+    font-family: "Poppins";
+    margin-bottom: 13px;
+    color: white;
+}
+
+.progress-bar{
+    background: #959595;
+    width: 350px;
+    height: 10px;
+    border-radius: 5px;
+}
+
+.progress-bar div {
+    height: 10px;
+    border-radius: 5px;
+    width: 0%;
+}
+
+.progress-bar div span{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #222;
+    float: right;
+    margin-top: -15px;
+    margin-right: -20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
+
+.html{
+    background: blue;
+    animation: html 1s linear forwards ;
+}
+
+.css{
+    background: rgb(208, 0, 255);
+    animation: css 1s linear forwards ;
+}
+
+.js{
+    background: rgb(0, 255, 47);
+    animation: js 1s linear forwards ;
+}
+
+.c{
+    background: rgb(255, 0, 0);
+    animation: c 1s linear forwards ;
+}
+
+.html span{
+    border: 1px solid blue ;
+}
+
+.css span{
+    border: 1px solid rgb(208, 0, 255);
+}
+
+.js span{
+    border: 1px solid rgb(0, 255, 47);
+}
+
+.c span{
+    border: 1px solid rgb(255, 0, 0);
+}
+
+@keyframes html{
+    100%{
+        width: 76%;
+    }
+}
+
+@keyframes css{
+    100%{
+        width: 66%;
+    }
+}
+
+@keyframes js{
+    100%{
+        width: 55%;
+    }
+}
+
+@keyframes c{
+    100%{
+        width: 65%;
+    }
+}
+
+
+/*My Projects*/
+
+#projectos{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 60px;
+    width: 85%;
+   
+}
+
+.tituloprojectos{
+    font-size: 65px ;
+    font-family: "Poppins";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 7%;
+    color: rgb(226, 19, 226);
+}
+
+
+
+.alinhar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.alinhar h4{
+    font-family: "Poppins";
+    font-size: 13px;
+    
+}
+
+.alinhar img{
+    width: 200px;
+    border-radius: 30%;
+    margin-left: 3%;
+}
+
+
+
 
 
 
