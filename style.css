@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  
+}
+
+html{
+    scroll-behavior: smooth;
 }
 body{
     background-color: rgb(18, 18, 23)
 }
 
-.main{
+#main{
     height: 100vh;
     background: url(/imagens/fundoo.jpg);
     background-position: center center;
@@ -116,9 +119,10 @@ body{
 
 .titulos h5{
     font-family: "Poppins";
-    font-size: 13px;
+    font-size: 20px;
     letter-spacing: 2px;
     margin-top: 40px;
+    color: rgb(170, 48, 170);
 
 }
 
@@ -199,10 +203,11 @@ body{
 }
 
 .tituloskills h1{
-    font-size: 68px ;
+    font-size: 88px ;
     font-family: "Poppins";
     font-weight: bold;
     color: rgb(226, 19, 226);
+    margin-bottom: 75px;
 }
 
 .skills{
@@ -326,12 +331,13 @@ body{
 }
 
 .tituloprojectos{
-    font-size: 65px ;
+    font-size: 55px ;
     font-family: "Poppins";
     font-weight: bold;
     text-align: center;
-    margin-top: 7%;
+    margin-top: 10%;
     color: rgb(226, 19, 226);
+    margin-left: 21%;
 }
 
 
@@ -354,6 +360,120 @@ body{
     border-radius: 30%;
     margin-left: 3%;
 }
+
+/* Contact me */
+
+#contactme{
+    color: white;
+    padding: 20px 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contactme h1 {
+    font-size: 68px ;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: rgb(226, 19, 226);
+    margin-top: 13%;
+    text-align: center;
+}
+
+.formulario{
+    width: 350px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border-radius: 20px;
+    background-color: rgb(4, 4, 64);
+    margin-top: 15%;
+    box-shadow: rgb(226, 19, 226) 0px 50px 100px -20px, rgb(226, 19, 226) 0px 30px 60px -30px, rgb(226, 19, 226) 0px -2px 6px 0px inset; /* box shadow feita no getscan box shadows */
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    padding: 20px;
+    height:500px;
+}
+
+.form h2{
+    color: purple;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.form label{
+    color: #f5f5f5;
+    font-size: 17px;
+    margin-bottom: 4px;
+    margin-right: 66%;
+    margin-top: 4px;
+
+}
+
+.form input{
+    padding: 15px;
+    outline: none;
+    border: 0;
+    margin-top: 5px ;
+    text-align: center;
+    font-size: 15px;
+    transition: all 0.5s;
+    font-family: "Poppins";
+}
+
+.form input:focus{
+    border-radius: 20px;
+}
+
+.form textarea{
+    padding: 10px;
+    outline: none;
+    border: 0;
+    font-size: 15px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    transition: all 0.5s;
+    font-family: "Poppins";
+
+}
+
+.form textarea:focus{
+    border-radius: 20px;
+}
+
+.form button{
+    color: white;
+    padding: 17px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    cursor: pointer;
+    border: 2px solid #f5f5f5;
+    width: 60%;
+    border-radius: 10px ;
+    font-family: "Poppins";
+    transition: all 1s;
+}
+
+.form button:hover{
+    background-color:#f5f5f5 ;
+    color: black;
+}
+
+
+
+
+
+
 
 
 

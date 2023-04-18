@@ -13,7 +13,7 @@
 </head>
 <body>
     
-    <section class="main">
+    <section id="main">
         <nav class="navbar">
             <div class="botaohamburguer" onclick="abrirmenu()">
                 <img src="imagens/hamburgernav.png" alt="botaohamburguer">
@@ -21,19 +21,19 @@
             <div class="barramenu">
                 <ul>
                      <li>
-                        <a class="amenu" href="#">Home</a>
+                        <a class="amenu" href="#main">Home</a>
                      </li>
                      <li>
-                        <a class="amenu" href="#">About me</a>
+                        <a class="amenu" href="#aboutme">About me</a>
                      </li>
                      <li>
-                        <a class="amenu" href="#">My Skills</a>
+                        <a class="amenu" href="#myskills">My Skills</a>
                      </li>
                      <li>
-                        <a class="amenu" href="#">My Projects</a>
+                        <a class="amenu" href="#projectos">My Projects</a>
                      </li>
                      <li>
-                        <a class="amenu" href="#">Contact me</a>
+                        <a class="amenu" href="#contactme">Contact me</a>
                      </li>
                 </ul>
 
@@ -48,10 +48,7 @@
         <div class="titulos">
             <h1>Miguel Guedes</h1>
             <h2>Programmer/Web Developer</h2>
-            <h5>Hello 👋 <br>
-                I've been studying programming for about six months. <br>
-                I have the ambition to become a developer and for that I'm studying<br>
-                every day reconciling with a one-year programming course that I'm taking</h5>
+            <h5>Passionate about programming 💻</h5>
         </div>
 
     </section>
@@ -115,27 +112,45 @@
         </div>
             <div class="projecto1">
                 <div class="alinhar">
-                    <img src="imagens/websiteunderconstrucion.jpg" alt="proj1">
+                    <a href="#"><img src="imagens/websiteunderconstrucion.jpg" alt="proj1"></a>
                     <h4>Descriçao do projecto 1 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum quos aperiam deleniti nesciunt cupiditate quidem modi voluptas molestias explicabo autem, non, nemo rerum. Recusandae eveniet dolor porro fugit necessitatibus.</h4>
                 </div>
             </div>
 
             <div class="projecto2">
                 <div class="alinhar">
-                    <img src="imagens/websiteunderconstrucion.jpg" alt="proj2">
+                    <a href="#"><img src="imagens/websiteunderconstrucion.jpg" alt="proj2"></a>
                     <h4>Descriçao do projecto 2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum quos aperiam deleniti nesciunt cupiditate quidem modi voluptas molestias explicabo autem, non, nemo rerum. Recusandae eveniet dolor porro fugit necessitatibus.</h4>
                 </div>
             </div>
 
             <div class="projecto3">
                 <div class="alinhar">
-                    <img src="imagens/websiteunderconstrucion.jpg" alt="proj3">
+                    <a href="#"><img src="imagens/websiteunderconstrucion.jpg" alt="proj3"></a>
                     <h4>Descriçao do projecto 3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nostrum quos aperiam deleniti nesciunt cupiditate quidem modi voluptas molestias explicabo autem, non, nemo rerum. Recusandae eveniet dolor porro fugit necessitatibus.</h4>
                 </div>
             </div>
 
+    </section>
 
 
+
+    <section id="contactme">
+            <h1>Contact me</h1>
+           
+            <div class="formulario">
+               
+                <form class="form" action="" method="post">
+                    <h2>Get in touch</h2>
+                    <label for="">Name</label>
+                    <input type="text" name="name" placeholder="Enter your name ">
+                    <label for="">Email</label>
+                    <input type="email" name="email" placeholder="Enter your email">
+                    <label for="Message"></label>
+                    <textarea name="Your message" cols="30" rows="10" placeholder="Type your message please"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
 
 
     </section>
