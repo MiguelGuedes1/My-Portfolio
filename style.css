@@ -80,13 +80,13 @@ body{
 
 .icon{
     color: rgb(56, 45, 56);
+    transition: transform 0.3s ease;
+    
 
 }
 
 .icon:hover{
-    transition: 0,2s;
-    transform: 0.5s;
-    width: 23px;
+    transform: scale(1.2);
 }
 
 .titulos{
@@ -353,6 +353,7 @@ body{
 .alinhar h4{
     font-family: "Poppins";
     font-size: 13px;
+    margin-left: 1.5%;
     
 }
 
@@ -360,6 +361,29 @@ body{
     width: 200px;
     border-radius: 30%;
     margin-left: 3%;
+    transition: box-shadow 0.4s ease;
+    transition: transform 0.3s ease;
+}
+
+.alinhar img:hover {
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.5);
+    transform: scale(1.1);
+}
+
+.projecto1{
+    margin-left: 2%;
+}
+
+.projecto2{
+    margin-left: 2%;
+}
+
+.projecto3{
+    margin-left: 2%;
+}
+
+.projecto4{
+    margin-left: 2%;
 }
 
 /* Contact me */
@@ -394,7 +418,32 @@ body{
     margin-top: 11%;
     box-shadow: rgb(226, 19, 226) 0px 50px 100px -20px, rgb(226, 19, 226) 0px 30px 60px -30px, rgb(226, 19, 226) 0px -2px 6px 0px inset; /* box shadow feita no getscan box shadows */
     margin-bottom: 10%;
+    position: relative;
 }
+
+.formulario::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 20px;
+    animation: border-animation 3s infinite;
+ 
+  }
+  
+  @keyframes border-animation {
+    0% {
+      border: 2px solid #ff00ff;
+    }
+    50% {
+      border: 4px solid #00ffff;
+    }
+    100% {
+      border: 2px solid #ff00ff;
+    }
+  }
 
 .form{
     display: flex;
@@ -404,7 +453,7 @@ body{
     font-family: "Poppins";
     padding: 20px;
     height:500px;
-
+    z-index: 1;
 }
 
 .form h2{
