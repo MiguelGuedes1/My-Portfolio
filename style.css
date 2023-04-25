@@ -13,7 +13,7 @@ body{
 
 #main{
     height: 100vh;
-    background: url(/imagens/fundoo.jpg);
+    background:url(imagens/fundoooooo.jfif);
     background-position: center center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -585,6 +585,13 @@ footer{
         margin-top: 40px;
         color: rgb(170, 48, 170);
     
+    }
+
+    .progress-bar{
+        background: #959595;
+        width: 670px;
+        height: 10px;
+        border-radius: 5px;
     }
     }
 
