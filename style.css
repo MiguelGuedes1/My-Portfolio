@@ -665,8 +665,206 @@ footer{
         color: white;
     }
 
-}      
+}    
+
+@media screen and (max-width: 399px) {
+
+    .titulos{
+        padding-top: 45%;
+    }
+
+
+
+    .titulos h1{
+        font-family: "Poppins";
+        color: rgb(226, 19, 226);
+        font-size: 49px;
+        margin-top: 15%;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
     
+    .titulos h2{
+        font-family: "Poppins";
+        color: crimson;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-top: 40px;
+    
+    
+    }
+    
+    .titulos h5{
+        font-family: "Poppins";
+        font-size: 12px;
+        letter-spacing: 2px;
+        margin-top: 40px;
+        color: rgb(170, 48, 170);
+    
+    }
+
+    #aboutme img{
+        width: 195px;
+        margin-bottom: 200px;
+    }
+    
+    .sobremim{
+        padding-top: 12%;
+    }
+    
+    .sobremim h1{
+        text-align: center;
+        font-size: 40px ;
+        font-family: "Poppins";
+        font-weight: bold;
+        color: rgb(226, 19, 226);
+        margin-top: 15%;
+    }
+    
+    .sobremim h5{
+        text-align: center;
+        font-size: 14px;
+        font-weight: normal;
+        font-family: "Poppins";
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-weight: bold;
+        color: white;
+        margin-right: 10%;
+    }
+    
+    .sobremim p{
+        font-family: "Poppins";
+        font-size: 11px;
+        text-align: center;
+        padding: 15px;
+        color: white;
+    } 
+
+    .tituloskills h1{
+        font-size: 55px ;
+        font-family: "Poppins";
+        font-weight: bold;
+        color: rgb(226, 19, 226);
+        margin-bottom: 75px;
+    }
+    
+    .skills{
+        height: 400px;
+        width: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .skills h2{
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin-top: 40px;
+        margin-bottom:5px ;
+        font-size: 18px;
+        font-family: "Poppins";
+        margin-bottom: 13px;
+        color: white;
+    }
+    
+    .progress-bar{
+        background: #959595;
+        width: 270px;
+        height: 10px;
+        border-radius: 5px;
+    }
+    
+    .progress-bar div {
+        height: 10px;
+        border-radius: 5px;
+        width: 0%;
+    }
+    
+    .progress-bar div span{
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        background: #222;
+        float: right;
+        margin-top: -15px;
+        margin-right: -20px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+
+.tituloprojectos{
+    font-size: 40px ;
+    font-family: "Poppins";
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20%;
+    color: rgb(226, 19, 226);
+    margin-left: 21%;
+}
+
+
+
+.alinhar{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.alinhar h4{
+    font-family: "Poppins";
+    font-size: 9px;
+    margin-left: 1.5%;
+    
+}
+
+.alinhar img{
+    width: 150px;
+    border-radius: 30%;
+    margin-left: 6%;
+    transition: box-shadow 0.4s ease;
+    transition: transform 0.3s ease;
+}
+
+#contactme h1 {
+    font-size: 45px ;
+    font-family: "Poppins";
+    font-weight: bold;
+    color: rgb(226, 19, 226);
+    margin-top: 20%;
+    text-align: center;
+}
+
+.formulario{
+    width: 280px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   border-radius: 20px;
+    background-color: rgb(4, 4, 64);
+    margin-top: 11%;
+    box-shadow: rgb(226, 19, 226) 0px 50px 100px -20px, rgb(226, 19, 226) 0px 30px 60px -30px, rgb(226, 19, 226) 0px -2px 6px 0px inset; /* box shadow feita no getscan box shadows */
+    margin-bottom: 10%;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+} 
+
 
 
 
