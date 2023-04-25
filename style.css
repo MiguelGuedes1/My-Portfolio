@@ -16,13 +16,12 @@ body{
     background: url(/imagens/fundoo.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     color:white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar{
-    position: fixed;
+    position: absolute;
     top: 0;
     right: 0;
     display: flex;
@@ -33,7 +32,7 @@ body{
 .botaohamburguer img {
     width: 45px;
     height: 45px;
-    margin-right: 20px;
+    margin-right: 35px;
     margin-top: 20px;
     cursor: pointer;
 }
@@ -557,6 +556,117 @@ footer{
     color: white;
     font-size: 14px;
 }
+
+@media screen and (min-width: 1250px) {                                                     
+    .titulos h1{
+        font-family: "Poppins";
+        color: rgb(226, 19, 226);
+        font-size: 120px;
+        margin-top: 15%;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    .titulos h2{
+        font-family: "Poppins";
+        color: crimson;
+        font-size: 65px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-top: 40px;
+    
+    
+    }
+    
+    .titulos h5{
+        font-family: "Poppins";
+        font-size: 35px;
+        letter-spacing: 2px;
+        margin-top: 40px;
+        color: rgb(170, 48, 170);
+    
+    }
+    }
+
+
+
+@media screen and (max-width: 559px) {
+
+    
+
+    .titulos{
+        padding-top: 45%;
+    }
+
+
+
+    .titulos h1{
+        font-family: "Poppins";
+        color: rgb(226, 19, 226);
+        font-size: 59px;
+        margin-top: 15%;
+        letter-spacing: 2px;
+        font-weight: bold;
+    }
+    
+    .titulos h2{
+        font-family: "Poppins";
+        color: crimson;
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        margin-top: 40px;
+    
+    
+    }
+    
+    .titulos h5{
+        font-family: "Poppins";
+        font-size: 15px;
+        letter-spacing: 2px;
+        margin-top: 40px;
+        color: rgb(170, 48, 170);
+    
+    }
+
+    #aboutme img{
+        width: 220px;
+        margin-bottom: 200px;
+    }
+    
+    .sobremim{
+        padding-top: 12%;
+    }
+    
+    .sobremim h1{
+        text-align: center;
+        font-size: 55px ;
+        font-family: "Poppins";
+        font-weight: bold;
+        color: rgb(226, 19, 226);
+    }
+    
+    .sobremim h5{
+        text-align: center;
+        font-size: 22px;
+        font-weight: normal;
+        font-family: "Poppins";
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-weight: bold;
+        color: white;
+    }
+    
+    .sobremim p{
+        font-family: "Poppins";
+        font-size: 13px;
+        text-align: center;
+        padding: 15px;
+        color: white;
+    }
+
+}      
+    
 
 
 
