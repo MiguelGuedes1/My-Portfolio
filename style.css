@@ -337,7 +337,7 @@ body{
     text-align: center;
     margin-top: 15%;
     color: rgb(226, 19, 226);
-    margin-left: 21%;
+    margin-left: 14%;
 }
 
 
@@ -830,7 +830,7 @@ footer{
 .alinhar{
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 
 }
 
@@ -841,7 +841,7 @@ footer{
     
 }
 
-.alinhar img{
+.imagensprojectos{
     width: 150px;
     border-radius: 30%;
     margin-left: 6%;
@@ -856,21 +856,6 @@ footer{
     color: rgb(226, 19, 226);
     margin-top: 20%;
     text-align: center;
-}
-
-.formulario{
-    width: 280px;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-   border-radius: 20px;
-    background-color: rgb(4, 4, 64);
-    margin-top: 11%;
-    box-shadow: rgb(226, 19, 226) 0px 50px 100px -20px, rgb(226, 19, 226) 0px 30px 60px -30px, rgb(226, 19, 226) 0px -2px 6px 0px inset; /* box shadow feita no getscan box shadows */
-    margin-bottom: 10%;
-    position: relative;
 }
 
 
